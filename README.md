@@ -1,6 +1,6 @@
 # Recipe Guru powered by AI
 
-🔗 Link to deployed app: [🥗 Recipe Guru](https://recipe-guru.onrender.com)
+🔗 Link to deployed app: [🥗 Recipe Guru](https://recipe-guru-b4by.onrender.com/)
 ## About
 
 ### Description and Purpose
@@ -68,7 +68,7 @@ The idea behind Recipe Guru was born from the need for a user-friendly tool to m
 ### 1. **Clone the repository from GitHub:**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/MahidharCodes/recipe-guru
 ```
 
 ### 2. **Navigate into the project folder:**
