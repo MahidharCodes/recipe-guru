@@ -1,0 +1,54 @@
+.recipe-image {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recipe > h1 {
+    margin-bottom: 10px;
+    font-size: 30px !important;
+}
+
+.meta-info {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.ingredients,
+.instructions {
+    margin-top: 20px;
+}
+
+.ingredients ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.ingredients ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.instructions ol {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.save-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}

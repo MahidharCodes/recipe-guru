@@ -1,0 +1,28 @@
+.recipe-card > h3 {
+    color: var(--green);
+    font-size: 20px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    height: 350px;
+    width: calc(40% - 10px);
+    display: inline-block;
+    text-align: left;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

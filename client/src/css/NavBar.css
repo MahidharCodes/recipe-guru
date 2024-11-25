@@ -1,0 +1,38 @@
+.navbar {
+    background-color: var(--green);
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 30px;
+    margin: 25px;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    gap: 20px;
+}
+
+
+.profile button {
+    background-color: white; /* Change this to your desired background color */
+    color: var(--green);
+    border: none;
+    cursor: pointer;
+}
+
+.profile button:hover {
+    background-color: var(--primary-hover);
+    color: white;
+}

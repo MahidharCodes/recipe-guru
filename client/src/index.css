@@ -1,0 +1,22 @@
+#root {
+    --font-family: 'Chewy', sans-serif;
+    --primary: rgb(115, 2, 12);
+    --primary-hover: black;
+    --color: #666;
+    --green: #4CAF50;
+    --h1-color: var(--color);
+    --h2-color: var(--color);
+    --h3-color: var(--color);
+    --card-background-color: rgba(0, 0, 0, 0.8);
+    --card-sectionning-background-color: rgba(0, 0, 0, 0.8);
+    --form-element-active-border-color: var(--color);
+    --form-element-placeholder-color: gray;
+    --line-height: 1.2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}

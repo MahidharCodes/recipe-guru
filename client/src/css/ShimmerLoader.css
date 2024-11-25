@@ -1,0 +1,29 @@
+/* src/css/ShimmerLoader.css */
+.shimmer-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height to cover the whole page */
+    background-color: #f6f7f8;
+}
+
+.shimmer-box {
+    width: 80%;
+    height: 20px;
+    margin: 10px 0;
+    background: #f6f7f8;
+    background-image: linear-gradient(90deg, #f6f7f8, #edeef1, #f6f7f8);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
